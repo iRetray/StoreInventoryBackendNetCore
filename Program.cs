@@ -30,7 +30,7 @@ namespace StoreInventoryBackend
                 {
                     return Results.BadRequest(new
                     {
-                        message = "El producto no es válido."
+                        message = "The product is not valid."
                     });
                 }
 
@@ -57,18 +57,18 @@ namespace StoreInventoryBackend
                 new Product
                 {
                     Id = Guid.NewGuid().ToString(),
-                    Name = "Laptop Gamer MSI GamingX",
+                    Name = "Gamer Laptop MSI GamingX",
                     Amount = 80,
                     Price = 3_500_000,
-                    Description = "Una potente laptop con tarjeta gráfica dedicada y pantalla de alta resolución."
+                    Description = "A powerful laptop with dedicated graphics card and high-resolution screen."
                 },
                 new Product
                 {
                     Id = Guid.NewGuid().ToString(),
-                    Name = "Audífonos Inalámbricos SONY K30",
+                    Name = "SONY K30 Wireless Headphones",
                     Amount = 150,
                     Price = 625_000,
-                    Description = "Audífonos Bluetooth con cancelación de ruido activa y batería de larga duración."
+                    Description = "Bluetooth headphones with active noise cancellation and long-lasting battery."
                 },
                 new Product
                 {
@@ -76,7 +76,7 @@ namespace StoreInventoryBackend
                     Name = "iPhone 18 Pro Max 4K UHD",
                     Amount = 25,
                     Price = 1_850_000,
-                    Description = "Teléfono de última generación con conectividad 5G, cámara de alta calidad y diseño moderno, solo para viejas bandidas."
+                    Description = "Latest generation phone with 5G connectivity, high-quality camera and modern design."
                 }
             };
 
